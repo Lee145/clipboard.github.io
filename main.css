@@ -1,0 +1,450 @@
+.body{
+    font-size: 18px;
+    font-weight:  400, 600;
+}
+a{
+    text-decoration: none;
+}
+
+.grid{
+    display: grid;
+}
+.head{
+    display: none;
+}
+.container{
+    max-width: 1250px;
+    margin-left: auto;
+    margin-right: auto;
+}
+img{
+    width: 100%;
+    height: auto;
+    /* max-width: 300px; */
+}
+.header{
+    background-image: url("bg-header-desktop.png");
+    background-position: center;
+    height: 40vh;
+  
+    background-size: cover;
+    text-align: center;
+}
+
+.logo{
+    margin-top: 80px;
+}
+.nav-logo{
+    width: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.heading{
+    text-align: center;
+    word-spacing: 0.2rem;
+}
+.words{
+    text-align: center;
+    margin-top: 50px;
+}
+.desc {
+   text-align: center;
+width: 40%;
+margin-left: auto;
+margin-right: auto;
+display: block;
+}
+
+.buttonss{
+    text-align: center;
+    margin-top: 2rem;
+   
+}
+.button{
+   background-color:  hsl(233, 100%, 69%);
+   color: white;
+   padding: .65rem 2.6rem;
+   border-radius: 25px;
+   text-align: center;
+   box-shadow: 3px 3px 4px  hsl(201, 11%, 66%) ;
+   margin-left: 0.9rem;
+}
+.btn{
+  background-color:hsl(171, 66%, 44%);
+    color: white;
+    padding: .65rem 2.6rem;
+    text-align: center;
+    border-radius: 25px;
+    box-shadow: 3px 3px 4px  hsl(210, 10%, 33%);
+
+}
+.heading2{
+   margin-top: 8rem;
+   text-align: center;
+}
+
+.hero1{
+    text-align: center;
+}
+.hero1 p{
+   margin-left: auto;
+   margin-right: auto;
+   display: block;
+    width: 45%;  
+}
+
+.snippet-container{
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 4rem;
+    align-items: center;
+    margin-top: 5rem;
+}
+.option1{
+    width: 230px;
+}
+.option2{
+    width: 230px;
+}
+.option3{
+    width: 230px;
+}
+
+.hero2{
+    font-size: 12px;
+    line-height: 12px;
+}
+ .snip-img{
+    width: 350px;
+    justify-content: center;
+   margin-left: auto;
+   margin-right: auto;
+   display: block;
+}
+.access-img{
+width: 50%;
+margin-left: auto;
+margin-right: auto;
+margin-top: 5rem;
+display: block;
+}
+.icon-img{
+    width: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline;
+}
+.charge2{
+    margin-top: 3rem;
+    display: flex;
+   justify-content: center;
+}
+.desc4{
+    width: 290px;
+    text-align: center;
+}
+.desc5{
+    width:320px;
+}
+.desc6{
+    width:320px; 
+    
+}
+
+.main4{
+    text-align: center;
+    margin-top: -50px;
+} 
+
+.main-img{
+    width: 100px;
+   margin:  20px;
+ margin-left: 7rem;
+ margin-top: 5rem;
+}
+.footer-title{
+    width: 30px;
+    justify-content: right;
+}
+.footer-img{
+    width: 20px;
+}
+ul{
+    text-decoration: none;
+    list-style: none;
+}
+.footer{
+    padding-top: 2rem;
+}
+.footer-container{
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 1.6rem;
+}
+.main6{
+  margin-top: 5rem;
+  text-align: center;
+}
+.main6 p{
+    text-align: center;
+    width: 45%;
+}
+ .footer{
+    margin-top: 4rem;
+   
+} 
+.footer-bg{
+    background-color:whitesmoke;
+    padding:0 20px;
+    line-height: 30px;
+} 
+.footer_container{
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 1.6rem;
+} 
+.footer-img{
+margin: 1rem;
+}
+.footer-links{
+    display: flex;
+    column-gap: 8rem;
+    margin-left: -250px;
+    color: gray;
+  
+}
+.footerlink{
+    display: block;
+  font-size: 11px;
+ 
+}
+.footer-socials{
+margin-top: 40px;
+
+}
+.footer-title{
+    margin-left: 5rem;
+    margin-top: 2rem;
+} 
+
+
+@media screen and (max-width: 576px) {
+    .head{
+        display: block;
+        height: 5vh;
+    }
+    .header{
+        background-image: none;
+    }
+    
+    .buttonss{
+        margin-top: 4.25rem;
+    }
+    .hero1{
+        margin-top: 300px;
+    }
+ 
+    .btn{
+     display:block;
+     width: 150px;
+     margin-left: auto;
+     margin-right: auto;
+ }
+ .button{
+     display: block;
+     width: 150px;
+     margin-left: auto;
+     margin-right: auto;
+     margin-top: 15px;
+ } 
+ .hero1 p{
+     width: 60%;
+ }
+ .snippet-container{
+     display: block;
+     align-items: center;
+   
+ }
+ .hero2{
+     text-align: center;
+     margin-top: 4rem; ;
+ }
+ .option1{
+     width: 50%;
+     text-align: center;
+     margin-left: auto;
+     margin-right: auto;
+     display: block;
+ }
+ .option2{
+     width: 40%;
+     text-align: center;
+     margin-left: auto;
+     margin-right: auto;
+     display: block;
+ }
+ .option3{
+     width: 40%;
+     text-align: center;
+     margin-left: auto;
+     margin-right: auto;
+     display: block;
+ }
+ .desc{
+     width: 50%;
+ }
+ .charge2{
+     display: block;
+     text-align: center;
+ }
+ .desc4{
+     width: 50%;
+     margin-left: auto;
+     margin-right: auto;
+     display: block;
+ }
+
+ .desc5{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.desc6{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+     .footer-container{
+        grid-template-columns: 1fr;
+    }
+    .footerlink{
+        margin-right: 2rem;
+        color: gray;
+        font-size: 15px;
+    }
+    .footer-links{
+        display: block;
+       margin-left: auto;
+       margin-right: auto;
+       text-align: center;
+    }
+    .footer-title{
+        width: 40px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .footer-socials{
+        justify-self: center;
+    }
+     .footer_bg{
+         padding: 2rem 0 3rem;
+     }
+ }
+@media screen and (max-width: 375px) {
+ .container{
+     margin-left: auto;
+     margin-right: auto;
+ }
+.header{
+background-image: none;
+display: block;
+
+}
+.head{
+   display: block;
+   height: 2vh;
+}
+.logo{
+    width: 80px;
+}
+.heading{
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.desc{
+   width: 265px;
+}
+.hero1{
+margin-top: 18.25rem;
+   
+}
+ .btn{
+    display:block;
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.button{
+    display: block;
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+} 
+.heading2{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.hero1 p{
+    width: 270px;
+}
+.snip-img{
+    margin-top: -50px;
+}
+.snippet-container{
+   display: block;
+}
+.heading3{
+    text-align: center;
+}
+.option1{
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+.option2{
+    width: 170px;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+.option3{
+    width: 170px;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+.access-img{
+    width: 300px;
+}
+.desc2{
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.charge2{
+    display: block;
+ 
+    
+}
+.images{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.main6 p{
+    width:75%
+    ;
+}
+
+.footer_bg{
+    padding: 2rem 0 3rem;
+}
+}
