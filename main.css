@@ -49,7 +49,7 @@ img{
     /* max-width: 300px; */
 }
 .header{
-    background-image: url("./images/bg-header-desktop.png");
+    background-image: url("./bg-header-desktop.png");
     background-position: center;
     background-size: cover;
     text-align: center;
